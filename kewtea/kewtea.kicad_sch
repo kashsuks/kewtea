@@ -570,6 +570,157 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "ScottoKeebs:OLED_128x32"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "OLED_128x32"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "ScottoKeebs_Components:OLED_128x32"
+				(at 0 8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "OLED_128x32_0_1"
+				(rectangle
+					(start 0 5.08)
+					(end 15.24 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "OLED_128x32_1_1"
+				(pin power_in line
+					(at -2.54 -3.81 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -1.27 0)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input clock
+					(at -2.54 1.27 0)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -2.54 3.81 0)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "ScottoKeebs:Placeholder_Diode"
 			(pin_numbers
 				(hide yes)
@@ -1056,6 +1207,18 @@
 		(uuid "bad877a4-d178-4d23-bcc8-80142faae867")
 	)
 	(rectangle
+		(start 31.75 125.73)
+		(end 90.17 166.37)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "c5d0dd7a-3621-433a-9890-8c2d724ca27e")
+	)
+	(rectangle
 		(start 193.04 49.53)
 		(end 271.78 114.3)
 		(stroke
@@ -1086,6 +1249,16 @@
 			)
 		)
 		(uuid "a11f5b7a-5173-4915-b086-e9b38953ad92")
+	)
+	(text "OLED Display"
+		(exclude_from_sim no)
+		(at 59.182 160.274 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "fd3d2821-b16f-4bb8-a1b3-ea57a7e23c06")
 	)
 	(junction
 		(at 68.58 93.98)
@@ -1370,10 +1543,6 @@
 		(uuid "efd4b97f-1978-4d0b-bdab-90d56a8530e4")
 	)
 	(no_connect
-		(at 252.73 76.2)
-		(uuid "19889dec-2227-470d-b40c-2f8dd8950fb7")
-	)
-	(no_connect
 		(at 252.73 71.12)
 		(uuid "51ad83c5-a5cf-4caa-9b94-9a9975a43db6")
 	)
@@ -1388,14 +1557,6 @@
 	(no_connect
 		(at 252.73 58.42)
 		(uuid "be38ee97-104f-4b7a-9288-a23b30b69f64")
-	)
-	(no_connect
-		(at 252.73 66.04)
-		(uuid "c19b2d02-403b-4703-90ae-5291fd962d84")
-	)
-	(no_connect
-		(at 252.73 78.74)
-		(uuid "c908d5d4-22c3-4a10-a8ec-5e9e4a4dcb32")
 	)
 	(no_connect
 		(at 252.73 63.5)
@@ -1633,6 +1794,16 @@
 	)
 	(wire
 		(pts
+			(xy 252.73 66.04) (xy 255.27 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49ca3b55-3914-4257-8aac-37d27136348d")
+	)
+	(wire
+		(pts
 			(xy 119.38 93.98) (xy 132.08 93.98)
 		)
 		(stroke
@@ -1720,6 +1891,16 @@
 			(type default)
 		)
 		(uuid "6ea9998d-51aa-4ade-a22d-7e5714223c90")
+	)
+	(wire
+		(pts
+			(xy 252.73 78.74) (xy 256.54 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f61af7b-c709-4a0c-a419-6f26df00c964")
 	)
 	(wire
 		(pts
@@ -1853,6 +2034,16 @@
 	)
 	(wire
 		(pts
+			(xy 252.73 76.2) (xy 256.54 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ac3e4b5-fd6b-4f9e-aaae-aee0e0bd96ce")
+	)
+	(wire
+		(pts
 			(xy 88.9 68.58) (xy 88.9 83.82)
 		)
 		(stroke
@@ -1900,6 +2091,16 @@
 			(type default)
 		)
 		(uuid "acd19e5f-9d72-42d6-8cc6-452a0d0919ee")
+	)
+	(wire
+		(pts
+			(xy 218.44 71.12) (xy 222.25 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0c4c01d-6afa-41a2-ad99-765be3e0245d")
 	)
 	(wire
 		(pts
@@ -1953,6 +2154,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 140.97) (xy 50.8 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc21f28b-f861-488f-9b55-c62e9a557a0e")
+	)
+	(wire
+		(pts
 			(xy 119.38 62.23) (xy 132.08 62.23)
 		)
 		(stroke
@@ -1980,6 +2191,16 @@
 			(type default)
 		)
 		(uuid "c71708bc-f954-4c31-9b87-9a7f532bb9a1")
+	)
+	(wire
+		(pts
+			(xy 46.99 138.43) (xy 50.8 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cda1a0c8-97d0-4909-9aff-6b44f5987b34")
 	)
 	(wire
 		(pts
@@ -2013,13 +2234,23 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 60.96) (xy 257.81 60.96)
+			(xy 252.73 60.96) (xy 264.16 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d268251d-3188-4719-8bf7-a0690825bf65")
+	)
+	(wire
+		(pts
+			(xy 46.99 146.05) (xy 50.8 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2fbcfe9-0e3c-41c6-b118-45400d05a972")
 	)
 	(wire
 		(pts
@@ -2083,6 +2314,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 143.51) (xy 50.8 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e381a443-880a-47ab-9664-6d5ab0051221")
+	)
+	(wire
+		(pts
 			(xy 252.73 83.82) (xy 256.54 83.82)
 		)
 		(stroke
@@ -2120,16 +2361,6 @@
 			(type default)
 		)
 		(uuid "ed6b524d-73db-47f4-91d2-da20494ac4ea")
-	)
-	(wire
-		(pts
-			(xy 218.44 71.12) (xy 222.25 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3ee1146-3a19-40a0-bd5c-0b7b48e1730e")
 	)
 	(wire
 		(pts
@@ -2171,6 +2402,30 @@
 		)
 		(uuid "ffabe4e0-bfad-45d6-8649-f7738d9daa58")
 	)
+	(global_label "SDA"
+		(shape input)
+		(at 218.44 68.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0022b019-552e-427d-8337-89a42ebc55a5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 211.8867 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "COL1"
 		(shape input)
 		(at 50.8 46.99 90)
@@ -2184,6 +2439,30 @@
 		(uuid "00a804ed-fa2e-4da2-b697-be61543566cc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 50.8 39.1667 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "COL9"
+		(shape input)
+		(at 256.54 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "044e24ba-232c-479a-8a30-c15b32a9bbfc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 264.3633 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2243,9 +2522,9 @@
 			)
 		)
 	)
-	(global_label "COL8"
+	(global_label "COL7"
 		(shape input)
-		(at 256.54 83.82 0)
+		(at 256.54 81.28 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2253,9 +2532,9 @@
 			)
 			(justify left)
 		)
-		(uuid "1aa7437c-2c03-4d4f-a7b1-fed26c321630")
+		(uuid "1369d297-6100-4bbb-9896-72825d047389")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 264.3633 83.82 0)
+			(at 264.3633 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2291,9 +2570,9 @@
 			)
 		)
 	)
-	(global_label "COL1"
+	(global_label "VCC"
 		(shape input)
-		(at 218.44 73.66 180)
+		(at 46.99 143.51 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2301,33 +2580,9 @@
 			)
 			(justify right)
 		)
-		(uuid "33459247-5707-4771-8a18-d3f6833f7781")
+		(uuid "46139785-6e6f-455c-91bf-2469ec53a65e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 210.6167 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "COL6"
-		(shape input)
-		(at 218.44 86.36 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4609e609-fc81-43c4-9407-36bbb79bed0d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 210.6167 86.36 0)
+			(at 40.3762 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2411,6 +2666,54 @@
 			)
 		)
 	)
+	(global_label "COL0"
+		(shape input)
+		(at 218.44 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "51130784-3569-4b64-9a14-250d55be77d9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 210.6167 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "COL6"
+		(shape input)
+		(at 256.54 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "592e6061-ce23-4db8-ad3d-98f8727b5fa6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 264.3633 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "COL9"
 		(shape input)
 		(at 152.4 46.99 90)
@@ -2435,6 +2738,30 @@
 			)
 		)
 	)
+	(global_label "SCL"
+		(shape input)
+		(at 218.44 71.12 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5e475f0a-7087-417b-bcbe-297eaa8cf8bc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 211.9472 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "ROW0"
 		(shape input)
 		(at 165.1 62.23 0)
@@ -2448,6 +2775,30 @@
 		(uuid "5f730a72-bbb8-4d90-933f-50bf5bfb2dbe")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 173.3466 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "COL5"
+		(shape input)
+		(at 256.54 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6f302e51-8f78-4b33-bcc0-013ad1a67f4b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 264.3633 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2483,6 +2834,30 @@
 			)
 		)
 	)
+	(global_label "COL2"
+		(shape input)
+		(at 218.44 81.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6fd59d69-0414-43d0-891f-034d61a2fa95")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 210.6167 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "COL5"
 		(shape input)
 		(at 101.6 46.99 90)
@@ -2507,9 +2882,9 @@
 			)
 		)
 	)
-	(global_label "COL2"
+	(global_label "COL4"
 		(shape input)
-		(at 218.44 76.2 180)
+		(at 218.44 86.36 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2517,9 +2892,129 @@
 			)
 			(justify right)
 		)
-		(uuid "7ef0ba4b-a22c-4021-9f51-279ed9abb70c")
+		(uuid "7a842440-0bf3-4eb6-898f-de9f7076801e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 210.6167 76.2 0)
+			(at 210.6167 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "COL8"
+		(shape input)
+		(at 256.54 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7afafd8b-feac-4716-a482-efd6ff175882")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 264.3633 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "ROW0"
+		(shape input)
+		(at 218.44 73.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7ee46f57-d95f-477a-869f-758f013e21a3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 210.1934 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "SDA"
+		(shape input)
+		(at 46.99 138.43 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "85cb71fe-523a-4f3f-b8ac-b6df7192de52")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 40.4367 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "COL1"
+		(shape input)
+		(at 218.44 78.74 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "869342e5-d9d4-4064-af51-5d10e0869bd4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 210.6167 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "COL3"
+		(shape input)
+		(at 218.44 83.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8ff569e4-4106-4c19-a851-5ad8580413f2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 210.6167 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2555,9 +3050,9 @@
 			)
 		)
 	)
-	(global_label "COL9"
+	(global_label "VCC"
 		(shape input)
-		(at 256.54 81.28 0)
+		(at 255.27 66.04 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2565,9 +3060,9 @@
 			)
 			(justify left)
 		)
-		(uuid "964f0c65-e5fa-4aa1-872a-92aa82f71801")
+		(uuid "b1a0490c-1f96-4fa8-9cb6-fabb7d5020a9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 264.3633 81.28 0)
+			(at 261.8838 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2576,78 +3071,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(global_label "COL3"
-		(shape input)
-		(at 218.44 78.74 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a9fd3f82-ea6e-43ec-a262-4d7b4d7d13db")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 210.6167 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "COL0"
-		(shape input)
-		(at 218.44 71.12 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "aad25edf-79a5-4045-9a05-15b19aa20c2a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 210.6167 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "ROW0"
-		(shape input)
-		(at 218.44 68.58 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b1a250b8-c8b7-4ee8-ba7c-7a4fba7a7cfa")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 210.1934 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)
@@ -2699,33 +3122,9 @@
 			)
 		)
 	)
-	(global_label "COL7"
+	(global_label "SCL"
 		(shape input)
-		(at 256.54 86.36 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "bcbc3763-dd12-4a89-b94e-09111efa5dd6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 264.3633 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "COL4"
-		(shape input)
-		(at 218.44 81.28 180)
+		(at 46.99 140.97 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2733,9 +3132,9 @@
 			)
 			(justify right)
 		)
-		(uuid "c55dc6d5-54f5-40e6-9a82-9ade91b968f1")
+		(uuid "c6aa674a-d239-404e-9329-3685a5038825")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 210.6167 81.28 0)
+			(at 40.4972 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2768,30 +3167,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(global_label "COL5"
-		(shape input)
-		(at 218.44 83.82 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f197f078-d6fc-4a05-a9f3-11c7e6d56d7b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 210.6167 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)
@@ -2830,7 +3205,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
 			(at 144.78 91.44 90)
 			(hide yes)
 			(show_name no)
@@ -2912,7 +3287,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Choc:Choc_V1"
 			(at 53.34 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -2995,7 +3370,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
 			(at 55.88 59.69 90)
 			(hide yes)
 			(show_name no)
@@ -3044,6 +3419,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 46.99 146.05 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "14c39405-f744-4b8c-8c98-5d8c9c3dc5c3")
+		(property "Reference" "#PWR04"
+			(at 46.99 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 46.99 151.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 46.99 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "214e903b-7ca3-4546-9998-8b9a15557ee8")
+		)
+		(instances
+			(project "kewtea"
+				(path "/248ad2e3-98af-4d68-8920-0faa809a5b8f"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
 		(at 91.44 71.12 0)
 		(unit 1)
@@ -3077,7 +3530,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Choc:Choc_V1"
 			(at 91.44 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -3160,7 +3613,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
 			(at 119.38 91.44 90)
 			(hide yes)
 			(show_name no)
@@ -3242,7 +3695,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Choc:Choc_V1"
 			(at 154.94 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -3324,7 +3777,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Choc:Choc_V1"
 			(at 142.24 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -3406,7 +3859,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Choc:Choc_V1"
 			(at 129.54 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -3488,7 +3941,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Choc:Choc_V1"
 			(at 142.24 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -3570,7 +4023,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Choc:Choc_V1"
 			(at 40.64 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -3807,7 +4260,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Choc:Choc_V1"
 			(at 53.34 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -3890,7 +4343,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
 			(at 106.68 59.69 90)
 			(hide yes)
 			(show_name no)
@@ -3940,7 +4393,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 257.81 60.96 0)
+		(at 264.16 60.96 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3951,7 +4404,7 @@
 		(fields_autoplaced yes)
 		(uuid "36f3a0a4-8bbd-4590-9736-49334aae81f4")
 		(property "Reference" "#PWR01"
-			(at 257.81 67.31 0)
+			(at 264.16 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3962,7 +4415,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 257.81 66.04 0)
+			(at 264.16 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3972,7 +4425,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 257.81 60.96 0)
+			(at 264.16 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3983,7 +4436,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 257.81 60.96 0)
+			(at 264.16 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3994,7 +4447,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 257.81 60.96 0)
+			(at 264.16 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4050,7 +4503,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Choc:Choc_V1"
 			(at 154.94 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -4132,7 +4585,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Choc:Choc_V1"
 			(at 91.44 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -4214,7 +4667,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Choc:Choc_V1"
 			(at 91.44 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -4297,7 +4750,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
 			(at 68.58 91.44 90)
 			(hide yes)
 			(show_name no)
@@ -4380,7 +4833,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
 			(at 119.38 59.69 90)
 			(hide yes)
 			(show_name no)
@@ -4463,7 +4916,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
 			(at 93.98 91.44 90)
 			(hide yes)
 			(show_name no)
@@ -4545,7 +4998,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Choc:Choc_V1"
 			(at 53.34 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -4628,7 +5081,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
 			(at 93.98 59.69 90)
 			(hide yes)
 			(show_name no)
@@ -4788,7 +5241,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Choc:Choc_V1"
 			(at 116.84 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -4871,7 +5324,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
 			(at 68.58 59.69 90)
 			(hide yes)
 			(show_name no)
@@ -4953,7 +5406,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Choc:Choc_V1"
 			(at 104.14 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -5036,7 +5489,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
 			(at 132.08 59.69 90)
 			(hide yes)
 			(show_name no)
@@ -5119,7 +5572,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
 			(at 55.88 76.2 90)
 			(hide yes)
 			(show_name no)
@@ -5202,7 +5655,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
 			(at 43.18 91.44 90)
 			(hide yes)
 			(show_name no)
@@ -5285,7 +5738,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
 			(at 144.78 76.2 90)
 			(hide yes)
 			(show_name no)
@@ -5367,7 +5820,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Choc:Choc_V1"
 			(at 66.04 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -5450,7 +5903,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
 			(at 68.58 76.2 90)
 			(hide yes)
 			(show_name no)
@@ -5533,7 +5986,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
 			(at 157.48 91.44 90)
 			(hide yes)
 			(show_name no)
@@ -5615,7 +6068,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Choc:Choc_V1"
 			(at 78.74 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -5697,7 +6150,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Choc:Choc_V1"
 			(at 66.04 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -5779,7 +6232,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Choc:Choc_V1"
 			(at 66.04 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -5939,7 +6392,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Choc:Choc_V1"
 			(at 40.64 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -6022,7 +6475,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
 			(at 81.28 76.2 90)
 			(hide yes)
 			(show_name no)
@@ -6104,7 +6557,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Choc:Choc_V1"
 			(at 142.24 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -6187,7 +6640,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
 			(at 132.08 91.44 90)
 			(hide yes)
 			(show_name no)
@@ -6270,7 +6723,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
 			(at 119.38 76.2 90)
 			(hide yes)
 			(show_name no)
@@ -6352,7 +6805,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Choc:Choc_V1"
 			(at 116.84 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -6435,7 +6888,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
 			(at 132.08 76.2 90)
 			(hide yes)
 			(show_name no)
@@ -6518,7 +6971,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
 			(at 106.68 76.2 90)
 			(hide yes)
 			(show_name no)
@@ -6601,7 +7054,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
 			(at 157.48 59.69 90)
 			(hide yes)
 			(show_name no)
@@ -6683,7 +7136,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Choc:Choc_V1"
 			(at 129.54 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -6766,7 +7219,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
 			(at 55.88 91.44 90)
 			(hide yes)
 			(show_name no)
@@ -6849,7 +7302,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
 			(at 93.98 76.2 90)
 			(hide yes)
 			(show_name no)
@@ -6932,7 +7385,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
 			(at 144.78 59.69 90)
 			(hide yes)
 			(show_name no)
@@ -7015,7 +7468,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
 			(at 157.48 76.2 90)
 			(hide yes)
 			(show_name no)
@@ -7097,7 +7550,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Choc:Choc_V1"
 			(at 129.54 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -7180,7 +7633,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
 			(at 81.28 59.69 90)
 			(hide yes)
 			(show_name no)
@@ -7263,7 +7716,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
 			(at 43.18 76.2 90)
 			(hide yes)
 			(show_name no)
@@ -7346,7 +7799,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
 			(at 81.28 91.44 90)
 			(hide yes)
 			(show_name no)
@@ -7429,7 +7882,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
 			(at 106.68 91.44 90)
 			(hide yes)
 			(show_name no)
@@ -7511,7 +7964,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Choc:Choc_V1"
 			(at 78.74 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -7593,7 +8046,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Choc:Choc_V1"
 			(at 78.74 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -7642,6 +8095,94 @@
 		)
 	)
 	(symbol
+		(lib_id "ScottoKeebs:OLED_128x32")
+		(at 53.34 142.24 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da727dab-2ed0-4dad-b685-dca00b686fc4")
+		(property "Reference" "J1"
+			(at 69.85 140.9699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "OLED_128x32"
+			(at 69.85 143.5099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_Components:OLED_128x32"
+			(at 53.34 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 53.34 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "d0aadfed-bdc8-481f-bb0f-9ea1e04ea770")
+		)
+		(pin "2"
+			(uuid "5ac4358e-593a-4416-83f7-7e0ad8d15c1f")
+		)
+		(pin "3"
+			(uuid "5c8a7037-2a70-4a71-884e-6b0a91f76779")
+		)
+		(pin "1"
+			(uuid "9608482d-7778-4255-ab04-9442a3831b3f")
+		)
+		(instances
+			(project "kewtea"
+				(path "/248ad2e3-98af-4d68-8920-0faa809a5b8f"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
 		(at 104.14 54.61 0)
 		(unit 1)
@@ -7675,7 +8216,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Choc:Choc_V1"
 			(at 104.14 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -7758,7 +8299,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
 			(at 43.18 59.69 90)
 			(hide yes)
 			(show_name no)
@@ -7840,7 +8381,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Choc:Choc_V1"
 			(at 40.64 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -7922,7 +8463,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Choc:Choc_V1"
 			(at 116.84 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -8004,7 +8545,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Choc:Choc_V1"
 			(at 104.14 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -8086,7 +8627,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Choc:Choc_V1"
 			(at 154.94 54.61 0)
 			(hide yes)
 			(show_name no)
