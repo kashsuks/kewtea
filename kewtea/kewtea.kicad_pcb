@@ -95,7 +95,7 @@
 		(descr "Choc keyswitch V1 CPG1350 V1")
 		(tags "Choc Keyswitch Switch CPG1350 V1 Cutout")
 		(property "Reference" "S19"
-			(at 0 -9 0)
+			(at -2.25 -8.55 0)
 			(layer "F.SilkS")
 			(uuid "ca14d50a-23af-4888-9431-b95eb4f45487")
 			(effects
@@ -389,7 +389,7 @@
 		(descr "Choc keyswitch V1 CPG1350 V1")
 		(tags "Choc Keyswitch Switch CPG1350 V1 Cutout")
 		(property "Reference" "S16"
-			(at 0 -9 0)
+			(at -2.4 -8.5 0)
 			(layer "F.SilkS")
 			(uuid "2d1df045-71fc-4555-a201-8e8b26ef2996")
 			(effects
@@ -682,7 +682,7 @@
 		(descr "Choc keyswitch V1 CPG1350 V1")
 		(tags "Choc Keyswitch Switch CPG1350 V1 Cutout")
 		(property "Reference" "S22"
-			(at 0 -9 0)
+			(at -1.95 -8.5 0)
 			(layer "F.SilkS")
 			(uuid "00f661c6-9a84-4e5c-9160-601198e50226")
 			(effects
@@ -976,7 +976,7 @@
 		(descr "Choc keyswitch V1 CPG1350 V1")
 		(tags "Choc Keyswitch Switch CPG1350 V1 Cutout")
 		(property "Reference" "S30"
-			(at 0 -9 0)
+			(at -1.95 -8.4 0)
 			(layer "F.SilkS")
 			(uuid "f5200d2e-56fb-446e-a5cc-4abce5b67f81")
 			(effects
@@ -1270,7 +1270,7 @@
 		(descr "Choc keyswitch V1 CPG1350 V1")
 		(tags "Choc Keyswitch Switch CPG1350 V1 Cutout")
 		(property "Reference" "S14"
-			(at 0 -9 0)
+			(at -3 -8.55 0)
 			(layer "F.SilkS")
 			(uuid "f9fc0896-a1b2-4b3c-899c-675b1da06e3a")
 			(effects
@@ -2152,7 +2152,7 @@
 		(descr "Choc keyswitch V1 CPG1350 V1")
 		(tags "Choc Keyswitch Switch CPG1350 V1 Cutout")
 		(property "Reference" "S23"
-			(at 0 -9 0)
+			(at -1.9 -8.45 0)
 			(layer "F.SilkS")
 			(uuid "2e14a255-8352-4904-a519-d82557297ef8")
 			(effects
@@ -2986,7 +2986,7 @@
 		(descr "Choc keyswitch V1 CPG1350 V1")
 		(tags "Choc Keyswitch Switch CPG1350 V1 Cutout")
 		(property "Reference" "S15"
-			(at 0 -9 0)
+			(at -2.3 -8.45 0)
 			(layer "F.SilkS")
 			(uuid "bca5c502-fed9-46fa-acfd-7649d7a90711")
 			(effects
@@ -4532,7 +4532,7 @@
 		(descr "Choc keyswitch V1 CPG1350 V1")
 		(tags "Choc Keyswitch Switch CPG1350 V1 Cutout")
 		(property "Reference" "S26"
-			(at 0 -9 0)
+			(at -1.6 -8.5 0)
 			(layer "F.SilkS")
 			(uuid "520d7c8a-aa47-4f15-9d49-6d34640e039c")
 			(effects
@@ -5037,7 +5037,7 @@
 		(descr "Choc keyswitch V1 CPG1350 V1")
 		(tags "Choc Keyswitch Switch CPG1350 V1 Cutout")
 		(property "Reference" "S20"
-			(at 0 -9 0)
+			(at -3.3 -8.4 0)
 			(layer "F.SilkS")
 			(uuid "93a2d27c-7630-4799-9161-180b7f8fc201")
 			(effects
@@ -5625,7 +5625,7 @@
 		(descr "Choc keyswitch V1 CPG1350 V1")
 		(tags "Choc Keyswitch Switch CPG1350 V1 Cutout")
 		(property "Reference" "S12"
-			(at 0 -9 0)
+			(at -2.25 -8.45 0)
 			(layer "F.SilkS")
 			(uuid "bbb64a4d-01b5-4b5a-be69-2a6475c8a2fe")
 			(effects
@@ -5918,7 +5918,7 @@
 		(descr "Choc keyswitch V1 CPG1350 V1")
 		(tags "Choc Keyswitch Switch CPG1350 V1 Cutout")
 		(property "Reference" "S25"
-			(at 0 -9 0)
+			(at -1.35 -8.55 0)
 			(layer "F.SilkS")
 			(uuid "607c39e2-088e-4360-baea-3abe755d088c")
 			(effects
@@ -6212,7 +6212,7 @@
 		(descr "Choc keyswitch V1 CPG1350 V1")
 		(tags "Choc Keyswitch Switch CPG1350 V1 Cutout")
 		(property "Reference" "S17"
-			(at 0 -9 0)
+			(at -2.3 -8.6 0)
 			(layer "F.SilkS")
 			(uuid "0da50980-0c34-4efa-8d08-2018a0741da3")
 			(effects
@@ -6800,7 +6800,7 @@
 		(descr "Choc keyswitch V1 CPG1350 V1")
 		(tags "Choc Keyswitch Switch CPG1350 V1 Cutout")
 		(property "Reference" "S13"
-			(at 0 -9 0)
+			(at 4 -8.45 0)
 			(layer "F.SilkS")
 			(uuid "21ddda85-1523-4efe-9cca-24ba0286af12")
 			(effects
@@ -7682,7 +7682,7 @@
 		(descr "Choc keyswitch V1 CPG1350 V1")
 		(tags "Choc Keyswitch Switch CPG1350 V1 Cutout")
 		(property "Reference" "S28"
-			(at 0 -9 0)
+			(at -1.55 -8.45 0)
 			(layer "F.SilkS")
 			(uuid "8e1d2496-365f-4333-b49a-a010344cbb50")
 			(effects
@@ -7976,7 +7976,7 @@
 		(descr "Choc keyswitch V1 CPG1350 V1")
 		(tags "Choc Keyswitch Switch CPG1350 V1 Cutout")
 		(property "Reference" "S27"
-			(at 0 -9 0)
+			(at -1.45 -8.5 0)
 			(layer "F.SilkS")
 			(uuid "fd828306-9f03-4a2f-86ae-6a59546b31a2")
 			(effects
@@ -8269,7 +8269,7 @@
 		(descr "Choc keyswitch V1 CPG1350 V1")
 		(tags "Choc Keyswitch Switch CPG1350 V1 Cutout")
 		(property "Reference" "S24"
-			(at 0 -9 0)
+			(at -1.25 -8.45 0)
 			(layer "F.SilkS")
 			(uuid "a9d0a393-1731-44cb-9372-d5adc68c8a6a")
 			(effects
@@ -8857,7 +8857,7 @@
 		(descr "Choc keyswitch V1 CPG1350 V1")
 		(tags "Choc Keyswitch Switch CPG1350 V1 Cutout")
 		(property "Reference" "S18"
-			(at 0 -9 0)
+			(at -2.25 -8.5 0)
 			(layer "F.SilkS")
 			(uuid "33d62b4b-9fa7-468f-9078-af674c648924")
 			(effects
@@ -9151,7 +9151,7 @@
 		(descr "Choc keyswitch V1 CPG1350 V1")
 		(tags "Choc Keyswitch Switch CPG1350 V1 Cutout")
 		(property "Reference" "S11"
-			(at 0 -9 0)
+			(at -2.55 -8.5 0)
 			(layer "F.SilkS")
 			(uuid "1c2effe4-6e70-4566-aad1-3aaea304d712")
 			(effects
@@ -9445,7 +9445,7 @@
 		(descr "Choc keyswitch V1 CPG1350 V1")
 		(tags "Choc Keyswitch Switch CPG1350 V1 Cutout")
 		(property "Reference" "S21"
-			(at 0 -9 0)
+			(at -2 -8.45 0)
 			(layer "F.SilkS")
 			(uuid "67de288b-9233-4ccd-bed5-805df4a58566")
 			(effects
@@ -10327,7 +10327,7 @@
 		(descr "Choc keyswitch V1 CPG1350 V1")
 		(tags "Choc Keyswitch Switch CPG1350 V1 Cutout")
 		(property "Reference" "S29"
-			(at 0 -9 0)
+			(at -1.35 -8.4 0)
 			(layer "F.SilkS")
 			(uuid "bc3345b2-f11b-423f-bbf5-b11c9bf32186")
 			(effects
@@ -19499,28 +19499,20 @@
 		(uuid "dc013fb3-1e43-4b71-85a2-7694d49465f2")
 	)
 	(segment
-		(start 82.9 62.6)
-		(end 83.1 62.8)
+		(start 76.5 54.5)
+		(end 83.05 61.05)
 		(width 0.3)
 		(layer "F.Cu")
 		(net "ROW1")
-		(uuid "09b93b3e-f229-46ae-a669-8d4ef7ab5ed1")
+		(uuid "16e2ed75-698d-489d-b77f-36da21f1817a")
 	)
 	(segment
-		(start 74.5 54.5)
-		(end 76.5 54.5)
+		(start 70.6 51.45)
+		(end 70.6 51.6)
 		(width 0.3)
 		(layer "F.Cu")
 		(net "ROW1")
-		(uuid "183ca8e4-2eeb-4d2e-a5e5-3147a5018d76")
-	)
-	(segment
-		(start 83.1 62.9)
-		(end 85.8 65.599999)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "ROW1")
-		(uuid "19093752-258f-4d72-981f-7616815dfdbc")
+		(uuid "179203ef-1ceb-4706-992b-9dc91b3b2ae0")
 	)
 	(segment
 		(start 122.6 80.7)
@@ -19561,6 +19553,14 @@
 		(layer "F.Cu")
 		(net "ROW1")
 		(uuid "2a47c359-2934-4085-a13c-27a8a7ba990d")
+	)
+	(segment
+		(start 70.6 51.509188)
+		(end 73.590812 54.5)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "ROW1")
+		(uuid "2c12e44c-407d-4247-bd21-6b7e4a3b3a9e")
 	)
 	(segment
 		(start 148.1 73.1)
@@ -19627,12 +19627,20 @@
 		(uuid "688c5b17-5c47-4ed0-b686-f022085bf6b0")
 	)
 	(segment
-		(start 82.9 61.8)
-		(end 82.9 62.6)
+		(start 83.05 62.85)
+		(end 85.8 65.599999)
 		(width 0.3)
 		(layer "F.Cu")
 		(net "ROW1")
-		(uuid "68a914d0-352d-4e88-a18f-4342df576a7a")
+		(uuid "6e8ed2f9-eaf4-4cf0-adf7-c6b5fa232dcd")
+	)
+	(segment
+		(start 73.590812 54.5)
+		(end 76.5 54.5)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "ROW1")
+		(uuid "70699b3e-1a33-448a-8f57-c65894afa91a")
 	)
 	(segment
 		(start 184 73.2)
@@ -19641,22 +19649,6 @@
 		(layer "F.Cu")
 		(net "ROW1")
 		(uuid "70a73005-1572-4f6a-a226-e1d928637102")
-	)
-	(segment
-		(start 76.5 54.5)
-		(end 83.2 61.2)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "ROW1")
-		(uuid "7123872f-c45a-445b-99be-0061580bb96f")
-	)
-	(segment
-		(start 70.6 49.8)
-		(end 70.6 51.6)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "ROW1")
-		(uuid "7211b4bd-f864-4102-9c6b-5b3be4b28718")
 	)
 	(segment
 		(start 130.3 73.1)
@@ -19689,6 +19681,14 @@
 		(layer "F.Cu")
 		(net "ROW1")
 		(uuid "7b2ac921-38b0-42ac-9ab8-39fc9bc8a788")
+	)
+	(segment
+		(start 70.6 49.8)
+		(end 70.6 51.45)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "ROW1")
+		(uuid "82ff955a-1459-4ad9-b94c-6fccf3d6a6c3")
 	)
 	(segment
 		(start 184.1 73.3)
@@ -19737,14 +19737,6 @@
 		(layer "F.Cu")
 		(net "ROW1")
 		(uuid "a9a38242-afd8-4d06-b080-224f13573865")
-	)
-	(segment
-		(start 83 61.4)
-		(end 83 61.7)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "ROW1")
-		(uuid "ab1299db-4257-47e7-8bbb-c4414943995a")
 	)
 	(segment
 		(start 88.6 68.6)
@@ -19811,14 +19803,6 @@
 		(uuid "bc0aa783-7a09-4f8c-843a-1e350006f9e7")
 	)
 	(segment
-		(start 74 55)
-		(end 74.5 54.5)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "ROW1")
-		(uuid "bc584faf-922b-4787-8729-c68c7b184444")
-	)
-	(segment
 		(start 101.9 80.7)
 		(end 104.7 80.7)
 		(width 0.3)
@@ -19833,14 +19817,6 @@
 		(layer "F.Cu")
 		(net "ROW1")
 		(uuid "bd419c81-dfd1-4300-8c32-40adb0209c04")
-	)
-	(segment
-		(start 83.2 61.2)
-		(end 83 61.4)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "ROW1")
-		(uuid "bd684056-cc25-4489-aa41-c4c9cbd1fba4")
 	)
 	(segment
 		(start 130.199999 73.1)
@@ -19875,14 +19851,6 @@
 		(uuid "c690616d-d196-46f3-9231-57a588baff9e")
 	)
 	(segment
-		(start 70 49.2)
-		(end 70.6 49.8)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "ROW1")
-		(uuid "c9bc23b3-200a-4fe8-8362-51b3939ab7d2")
-	)
-	(segment
 		(start 88.6 67.8)
 		(end 88.6 68.6)
 		(width 0.3)
@@ -19891,28 +19859,12 @@
 		(uuid "cbf24591-9907-4af3-922c-2e6b228b4e61")
 	)
 	(segment
-		(start 83 61.7)
-		(end 82.9 61.8)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "ROW1")
-		(uuid "d0183c9c-a157-433b-840b-a779a31dcbab")
-	)
-	(segment
 		(start 191.49 80.7)
 		(end 194.7 80.7)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "ROW1")
 		(uuid "d6f31a47-534c-47f1-8099-e36a4626965e")
-	)
-	(segment
-		(start 70.6 51.6)
-		(end 74 55)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "ROW1")
-		(uuid "daf909c8-4fce-4999-ada7-5957af525f62")
 	)
 	(segment
 		(start 94.1 73.3)
@@ -19939,12 +19891,36 @@
 		(uuid "e4b42103-0100-4169-8685-1d33de393a28")
 	)
 	(segment
+		(start 83.05 61.05)
+		(end 83.05 62.85)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "ROW1")
+		(uuid "ec3c7a79-c769-4ed9-988a-ac27c903076b")
+	)
+	(segment
 		(start 212.5 80.7)
 		(end 219.8 73.4)
 		(width 0.3)
 		(layer "F.Cu")
 		(net "ROW1")
 		(uuid "f005384f-1d32-4a54-989c-49b77c38b77e")
+	)
+	(segment
+		(start 70 49.2)
+		(end 70.6 49.8)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "ROW1")
+		(uuid "f22e2884-f9e7-40f4-abee-8b6061355bdd")
+	)
+	(segment
+		(start 70.6 51.45)
+		(end 70.6 51.509188)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "ROW1")
+		(uuid "f35b2300-187a-4df0-883e-a6247dc4f314")
 	)
 	(segment
 		(start 137.9 80.7)
@@ -19969,14 +19945,6 @@
 		(layer "F.Cu")
 		(net "ROW1")
 		(uuid "fa585c8b-9e2c-43e7-af83-f748bbbfdace")
-	)
-	(segment
-		(start 83.1 62.8)
-		(end 83.1 62.9)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "ROW1")
-		(uuid "faaf6217-e08f-445f-9e68-7dbf63b8a369")
 	)
 	(segment
 		(start 64.9 45.6)
