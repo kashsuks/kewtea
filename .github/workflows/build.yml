@@ -8,12 +8,16 @@ jobs:
     container:
       image: zmkfirmware/zmk-build-arm:stable
 
+    defaults:
+      run:
+        working-directory: code
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
       - name: Initialise west workspace from config
-        run: west init -l code/config
+        run: west init -l config
 
       - name: Fetch ZMK and Zephyr dependencies
         run: west update
@@ -25,10 +29,10 @@ jobs:
         run: |
           west build -s zmk/app -b nice_nano_v2 \
             -- -DSHIELD=kewtea \
-               -DZMK_CONFIG="$(pwd)/code/config"
+               -DZMK_CONFIG="$(pwd)/config"
 
       - name: Upload firmware artifact
         uses: actions/upload-artifact@v4
         with:
           name: kewtea-nice_nano_v2-zmk
-          path: build/zephyr/zmk.uf2
+          path: code/build/zephyr/zmk.uf2
