@@ -27,7 +27,7 @@ jobs:
 
       - name: Build kewtea firmware
         run: |
-          west build -s zmk/app -b nice_nano_v2 \
+          west build -s zmk/app -b nice_nano/v2 \
             -- -DSHIELD=kewtea \
                -DZMK_CONFIG="$(pwd)/config"
 
