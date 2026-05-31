@@ -1,2 +1,0 @@
-config SHIELD_KEWTEA
-    def_bool $(shields_list_contains,kewtea)

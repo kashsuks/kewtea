@@ -1,38 +1,11 @@
-name: Build ZMK Firmware
+name: Validate KMK Config
 
-on: [push, pull_request, workflow_dispatch]
+on: [push, pull_request]
 
 jobs:
-  build:
+  validate:
     runs-on: ubuntu-latest
-    container:
-      image: zmkfirmware/zmk-build-arm:stable
-
-    defaults:
-      run:
-        working-directory: code
-
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Initialise west workspace from config
-        run: west init -l config
-
-      - name: Fetch ZMK and Zephyr dependencies
-        run: west update
-
-      - name: Export Zephyr CMake package
-        run: west zephyr-export
-
-      - name: Build kewtea firmware
-        run: |
-          west build -s zmk/app -b nice_nano/v2 \
-            -- -DSHIELD=kewtea \
-               -DZMK_CONFIG="$(pwd)/config"
-
-      - name: Upload firmware artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: kewtea-nice_nano_v2-zmk
-          path: code/build/zephyr/zmk.uf2
+      - uses: actions/checkout@v4
+      - name: Check syntax
+        run: python3 -m py_compile code/code.py

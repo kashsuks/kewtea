@@ -1,7 +1,0 @@
-file_format: "1"
-id: kewtea
-name: Kewtea
-type: shield
-url: https://github.com/ksukshavasi/kewtea
-requires:
-  - pro_micro
