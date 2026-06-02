@@ -18065,6 +18065,44 @@
 	(dimension
 		(type orthogonal)
 		(layer "F.Cu")
+		(uuid "8a51d42d-c656-4ef6-9391-bf74b2913956")
+		(pts
+			(xy 58.9 58.6) (xy 58.9 43.4)
+		)
+		(height -1.35)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.2)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "15.2"
+			(at 55.75 51 90)
+			(layer "F.Cu")
+			(uuid "8a51d42d-c656-4ef6-9391-bf74b2913956")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.3)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "F.Cu")
 		(uuid "ce069095-60d2-40a4-98c2-15463e30008d")
 		(pts
 			(xy 66.5 51) (xy 84.5 51)
